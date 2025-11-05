@@ -2,6 +2,8 @@
 
 A modern full-stack **E-Learning web application** built using **React + Node.js** where users can access learning content and explore courses.  
 Inspired by platforms like **Udemy, Coursera, and Google Classroom**.
+🧩 This project was fully developed by me as an independent full-stack project to strengthen my React and Node.js skills.
+
 
 ---
 
