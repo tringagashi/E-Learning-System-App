@@ -1,0 +1,24 @@
+# Sigurohu që kodi të llogaritet si gjuhë
+*.js  linguist-detectable=true
+*.jsx linguist-detectable=true
+*.ts  linguist-detectable=true
+*.tsx linguist-detectable=true
+*.py  linguist-detectable=true
+*.css linguist-detectable=true
+*.html linguist-detectable=true
+
+# Trego qartë se frontend/backend përmbajnë kod
+frontend/** linguist-detectable=true
+backend/**  linguist-detectable=true
+
+# Mos llogarit file të gjeneruara / assete
+**/node_modules/** linguist-vendored
+**/build/**        linguist-vendored
+**/dist/**         linguist-vendored
+*.min.js           linguist-generated
+*.map              linguist-generated
+frontend/src/* linguist-language=JavaScript
+backend/*       linguist-language=JavaScript
+frontend/src/* linguist-detectable=true
+backend/* linguist-detectable=true
+
